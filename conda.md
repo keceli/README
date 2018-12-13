@@ -59,6 +59,6 @@ dependencies:
     - "--editable=git+https://github.com/jaimergp/ebsel.git#egg=ebsel"
 ```
 # Links
-https://conda.io/docs/user-guide/tasks/manage-environments.html
-http://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/
-https://jupyter4edu.github.io/jupyter-edu-book/
+* https://conda.io/docs/user-guide/tasks/manage-environments.html
+* http://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/
+* https://jupyter4edu.github.io/jupyter-edu-book/
