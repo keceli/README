@@ -27,7 +27,7 @@ Then
 
 ```
 docker push <NEWIMAGE> 
-
+```
 To run a Jupyter notebook within the container, start the container with:
 ```
 docker run -it -p 8888:8888 keceli/pacc bash
