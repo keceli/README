@@ -11,4 +11,7 @@
 #Insert path
 import sys
 sys.path.append('/Users/keceli/Dropbox/work/chemdash/modelkit')
+#or
+sys.path.insert(0, '/Users/keceli/Dropbox/work/qtc/qtc')
 ```
+
