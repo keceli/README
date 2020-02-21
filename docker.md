@@ -4,8 +4,8 @@ Build the image with
 ```
 docker build -t <MYIMAGE> .
 ```
-General convention for MYIMAGE is username/imagename:tag, i.e
-keceli/petsc:3.6
+General convention for `<MYIMAGE>` is `username/imagename:tag`, i.e
+`keceli/dev:lib`
 
 
 You can run the container with
