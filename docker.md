@@ -4,9 +4,11 @@ Build the image with
 ```
 docker build -t <MYIMAGE> .
 ```
-General convention for <MYIMAGE> is username/imagename, i.e
-keceli/petsc
-Run with
+General convention for MYIMAGE is username/imagename:tag, i.e
+keceli/petsc:3.6
+
+
+You can run the container with
 ```
 docker run -it <MYIMAGE> bash
 ```
@@ -28,6 +30,8 @@ Then
 ```
 docker push <NEWIMAGE> 
 ```
+
+
 To run a Jupyter notebook within the container, start the container with:
 ```
 docker run -it -p 8888:8888 keceli/pacc bash
