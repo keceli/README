@@ -1,4 +1,4 @@
-# Tips for using conda for python
+# Tips for using conda
 
 Use `conda env list` to see available environments.
 Use `conda list` to see installed packages in your environment.
@@ -25,7 +25,8 @@ Alternatively, for an open notebook you can change the kernel using the 'Kernel'
 You can use environment.yml files to simplify the process of installing packages from different channels. 
 Don't forget to include jupyter nb_conda ipykernel modules in your list of modules to be installed.
 
-
+Note that `environment.yml` does not work with `conda install --file <filename>`.
+You need to create the installation file with `conda list --export`.
 # sample environment.yml
 ```
 name: chemdash
